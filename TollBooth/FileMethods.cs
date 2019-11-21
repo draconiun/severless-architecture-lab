@@ -60,6 +60,7 @@ namespace TollBooth
                         await blob.UploadFromStreamAsync(stream);
 
 
+
                         successful = true;
                     }
                     catch (Exception e)
